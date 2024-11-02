@@ -65,10 +65,10 @@ public class Game {
             }
 
         }
-        getResults(results);
+        getPercentResults(results);
     }
 
-    public void getResults(HashMap<Integer, Double> results){
+    public void getPercentResults(HashMap<Integer, Double> results){
         for (int i = 0; i < results.size(); i++) {
             System.out.println("Iteration: " + i + ", win percentage: " + results.get(i));
         }
